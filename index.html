@@ -2,21 +2,44 @@
     <head><title>Formulario</title></head>
     <body id="body">
         <link rel="stylesheet" href="style.css">
-        <p align="Center"><font color="white"><font size="8"><u><b>Formulario</b></u></font></font></p>
-        <fieldset>
-            <legend><font color="white"><font size="5"><u>Formulario Basico</u></font></font></legend>
-                <form action="">
-                    <div class="form-group">
-                        <label for="" id="label">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-                    </div>
-                    <br><br>
-                    <div class="form-group">
-                        <label for="" id="label">Apellido</label>
-                        <input type="text" min="1" max="5" placeholder="Apellido" name="Apellido" id="Nombre">
-                    </div>
-                </form>
-            
+        
+        <fieldset id="recuadro">
+            <legend><font color="white" size="5"><u>Formulario Básico</u></font></legend>
+            <form action="">
+                <div class="form-group">
+                    <label for="nombre" id="label">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="apellido" id="label">Apellido</label>
+                    <input type="text" placeholder="Apellido" name="apellido" id="apellido">
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="edad" id="label">Edad</label>
+                    <input type="number" min="1" max="80" placeholder="Edad" name="edad" id="edad">
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="fecha_nacimiento" id="label">Fecha De Nacimiento</label>
+                    <input type="date" placeholder="Fecha de Nacimiento" name="fecha_nacimiento" id="fecha_nacimiento">
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="telefono" id="label">Numero De Telefono</label>
+                    <input type="tel" placeholder="Telefono" name="telefono" id="telefono">
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <label for="email" id="label">Correo Electronico</label>
+                    <input type="email" placeholder="Email" name="email" id="email">
+                </div>
+                <br><br>
+                <input type="submit" id="button" value="Enviar">
+                <input type="reset" id="button" value="Refrescar">
+            </form>
         </fieldset>
+        <script src="jv.js"></script>
     </body>
 </html>
