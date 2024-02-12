@@ -1,0 +1,11 @@
+#body{
+    background-image: url(imagenes/miles-morales-en-spider-man-un-nuevo-universo_1920x1080_xtrafondos.com.jpg);
+    background-size: cover;
+}
+#Nombre{
+    background-color: white;
+}
+#label{
+    color: rgb(255, 255, 255);
+    size: 10000px;
+}
